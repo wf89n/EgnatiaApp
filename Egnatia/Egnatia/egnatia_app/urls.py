@@ -6,6 +6,7 @@ from .views import (
     attendance_reports_by_group,
     submit_attendance
 )
+from django.views.generic import TemplateView
 
 urlpatterns = [
     # Other URLs...
@@ -24,4 +25,5 @@ urlpatterns = [
     path('people/<int:group_id>/', people_by_group, name='people-by-group'),
     path('attendance-reports/<int:group_id>/', attendance_reports_by_group, name='attendance-reports-by-group'),
     path('submit-attendance/', submit_attendance, name='submit-attendance'),
+    path('', TemplateView.as_view(template_name="index.html"), name="home"),
 ]

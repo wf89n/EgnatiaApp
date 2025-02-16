@@ -271,3 +271,5 @@ def submit_attendance(request):
 
     except Exception as e:
         return Response({"error": f"Something went wrong: {str(e)}"}, status=500)
+
+
