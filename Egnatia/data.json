@@ -1,0 +1,5204 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "basicinfo"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "studies"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "workexperience"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "seminartraining"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "otherlanguages"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "otherknowledge"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "dailyattendance"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "role"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "employee"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "department"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "region"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "groupdepartment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "cancel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "infooldnew"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "closebc"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "closedssr"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "info"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "wfm"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "assign"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "infocodesr"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "sr"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "customer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "dailyprogram"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "assignjob"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "egnatia_app",
+    "model": "attendancereport"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0br0s64t7dueba6cwtiacug6rcb4e6gq",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChpe3g0r1nIMMMSNVAUtqV8e7apAvd_vfefylP25r91uLiZ1FnZdTpdwvEj1h2IHcqt6q5lnWZg94VfdCmr1Xi83K4fweZWv7WzsHECJMMBhwzoiRiQTuYsWe2INgDBo7YGeNIuJMUHfejTQgEwaj3B91EOAI:1tgQaG:f5KN58G1evW98c9Icvj2viYd758YzNvA29BdT1_olbA",
+    "expire_date": "2025-02-21T15:48:00.380Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fq6q6nzrdhjoj01q47mqcvydge9kfbb1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChpe3g0r1nIMMMSNVAUtqV8e7apAvd_vfefylP25r91uLiZ1FnZdTpdwvEj1h2IHcqt6q5lnWZg94VfdCmr1Xi83K4fweZWv7WzsHECJMMBhwzoiRiQTuYsWe2INgDBo7YGeNIuJMUHfejTQgEwaj3B91EOAI:1tjbYZ:mGywLTHu6AXhS-0fHPDR4-nFKxtaH3wZJrLSycLvr-0",
+    "expire_date": "2025-03-02T10:07:23.388Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gy1w6d7uk1t9h2kvlofr4ieaf7mlkmp9",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChpe3g0r1nIMMMSNVAUtqV8e7apAvd_vfefylP25r91uLiZ1FnZdTpdwvEj1h2IHcqt6q5lnWZg94VfdCmr1Xi83K4fweZWv7WzsHECJMMBhwzoiRiQTuYsWe2INgDBo7YGeNIuJMUHfejTQgEwaj3B91EOAI:1tc3tR:bjghkm3OL0GK5hoo5jBT0iPNM8KdNVjfM9Lp2XQ6NMM",
+    "expire_date": "2025-02-09T14:45:45.853Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jvb3wocmghmpxegylcig2opbf3y9nt1f",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChpe3g0r1nIMMMSNVAUtqV8e7apAvd_vfefylP25r91uLiZ1FnZdTpdwvEj1h2IHcqt6q5lnWZg94VfdCmr1Xi83K4fweZWv7WzsHECJMMBhwzoiRiQTuYsWe2INgDBo7YGeNIuJMUHfejTQgEwaj3B91EOAI:1tc3tC:MJKykNRacRRS22hL6T349eZe80PnaLdAjTp8pakLUlw",
+    "expire_date": "2025-02-09T14:45:30.127Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pkcpizaa2wvo9arcn7ilzxp8xehvhuw1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChpe3g0r1nIMMMSNVAUtqV8e7apAvd_vfefylP25r91uLiZ1FnZdTpdwvEj1h2IHcqt6q5lnWZg94VfdCmr1Xi83K4fweZWv7WzsHECJMMBhwzoiRiQTuYsWe2INgDBo7YGeNIuJMUHfejTQgEwaj3B91EOAI:1tb2kd:_U-_yAh5BYzOZWaI34hLS-heYMHsv3Cq-k2pv-tnYQg",
+    "expire_date": "2025-02-06T19:20:27.162Z"
+  }
+},
+{
+  "model": "egnatia_app.region",
+  "pk": 1,
+  "fields": {
+    "name": "Attiki",
+    "total_meters_assigned": 2500,
+    "total_freatio_assigned": 70,
+    "total_cabins_assigned": 11,
+    "total_catheta_assigned": 220,
+    "total_meters_done": 700,
+    "total_freatio_done": 50,
+    "total_cabins_done": 5,
+    "total_catheta_done": 37
+  }
+},
+{
+  "model": "egnatia_app.region",
+  "pk": 2,
+  "fields": {
+    "name": "Kastoria",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.group",
+  "pk": 1,
+  "fields": {
+    "region": 1,
+    "name": "Ometin Group",
+    "total_expenses": "560.00",
+    "total_meters_assigned": 2500,
+    "total_freatio_assigned": 70,
+    "total_cabins_assigned": 11,
+    "total_catheta_assigned": 220,
+    "total_meters_done": 700,
+    "total_freatio_done": 50,
+    "total_cabins_done": 5,
+    "total_catheta_done": 37
+  }
+},
+{
+  "model": "egnatia_app.group",
+  "pk": 2,
+  "fields": {
+    "region": 1,
+    "name": "Leonidas Group",
+    "total_expenses": "0.00",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.group",
+  "pk": 3,
+  "fields": {
+    "region": 1,
+    "name": "Nodas",
+    "total_expenses": "0.00",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.group",
+  "pk": 4,
+  "fields": {
+    "region": 1,
+    "name": "greoup1",
+    "total_expenses": "0.00",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.group",
+  "pk": 6,
+  "fields": {
+    "region": 2,
+    "name": "Kastoria",
+    "total_expenses": "0.00",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.department",
+  "pk": 1,
+  "fields": {
+    "name": "Ergodigoi"
+  }
+},
+{
+  "model": "egnatia_app.department",
+  "pk": 2,
+  "fields": {
+    "name": "Xeiristes"
+  }
+},
+{
+  "model": "egnatia_app.department",
+  "pk": 3,
+  "fields": {
+    "name": "Mixanikos"
+  }
+},
+{
+  "model": "egnatia_app.department",
+  "pk": 4,
+  "fields": {
+    "name": "Mastoras"
+  }
+},
+{
+  "model": "egnatia_app.department",
+  "pk": 6,
+  "fields": {
+    "name": "Ergates"
+  }
+},
+{
+  "model": "egnatia_app.groupdepartment",
+  "pk": 12,
+  "fields": {
+    "group": 1,
+    "department": 1
+  }
+},
+{
+  "model": "egnatia_app.groupdepartment",
+  "pk": 13,
+  "fields": {
+    "group": 1,
+    "department": 2
+  }
+},
+{
+  "model": "egnatia_app.groupdepartment",
+  "pk": 14,
+  "fields": {
+    "group": 1,
+    "department": 3
+  }
+},
+{
+  "model": "egnatia_app.groupdepartment",
+  "pk": 15,
+  "fields": {
+    "group": 1,
+    "department": 4
+  }
+},
+{
+  "model": "egnatia_app.groupdepartment",
+  "pk": 17,
+  "fields": {
+    "group": 1,
+    "department": 6
+  }
+},
+{
+  "model": "egnatia_app.role",
+  "pk": 1,
+  "fields": {
+    "department": 1,
+    "name": "Ergodigos",
+    "parent": null
+  }
+},
+{
+  "model": "egnatia_app.role",
+  "pk": 2,
+  "fields": {
+    "department": 2,
+    "name": "Xeiristis",
+    "parent": null
+  }
+},
+{
+  "model": "egnatia_app.role",
+  "pk": 3,
+  "fields": {
+    "department": 3,
+    "name": "Mixanikos A",
+    "parent": null
+  }
+},
+{
+  "model": "egnatia_app.role",
+  "pk": 4,
+  "fields": {
+    "department": 3,
+    "name": "Mixanikos B",
+    "parent": null
+  }
+},
+{
+  "model": "egnatia_app.role",
+  "pk": 5,
+  "fields": {
+    "department": 2,
+    "name": "Xeiristis B'",
+    "parent": null
+  }
+},
+{
+  "model": "egnatia_app.role",
+  "pk": 6,
+  "fields": {
+    "department": 4,
+    "name": "Ydravlikos",
+    "parent": null
+  }
+},
+{
+  "model": "egnatia_app.role",
+  "pk": 8,
+  "fields": {
+    "department": 6,
+    "name": "Ergatiko Dynamiko",
+    "parent": null
+  }
+},
+{
+  "model": "egnatia_app.employee",
+  "pk": 1,
+  "fields": {
+    "basic_info": 1,
+    "region": 1,
+    "group": 1,
+    "department": 1,
+    "role": 1
+  }
+},
+{
+  "model": "egnatia_app.employee",
+  "pk": 2,
+  "fields": {
+    "basic_info": 2,
+    "region": 1,
+    "group": 1,
+    "department": 2,
+    "role": 2
+  }
+},
+{
+  "model": "egnatia_app.employee",
+  "pk": 3,
+  "fields": {
+    "basic_info": 3,
+    "region": 1,
+    "group": 1,
+    "department": 2,
+    "role": 5
+  }
+},
+{
+  "model": "egnatia_app.employee",
+  "pk": 5,
+  "fields": {
+    "basic_info": 5,
+    "region": 1,
+    "group": 1,
+    "department": 1,
+    "role": 1
+  }
+},
+{
+  "model": "egnatia_app.employee",
+  "pk": 6,
+  "fields": {
+    "basic_info": 6,
+    "region": 1,
+    "group": 1,
+    "department": 3,
+    "role": 3
+  }
+},
+{
+  "model": "egnatia_app.employee",
+  "pk": 9,
+  "fields": {
+    "basic_info": 4,
+    "region": 1,
+    "group": 1,
+    "department": 6,
+    "role": 8
+  }
+},
+{
+  "model": "egnatia_app.basicinfo",
+  "pk": 1,
+  "fields": {
+    "first_name": "Αντωνης",
+    "last_name": "Κονινι",
+    "father_name": "Πετρο",
+    "location": "Πετρουπολη",
+    "gender": "Αρρεν",
+    "marital_status": "Αγγαμος",
+    "date_of_birth": "2025-01-23",
+    "mobile_phone": "6947738095",
+    "landline_phone": "21054685465",
+    "email": "koniniant@gmail.com",
+    "tax_id": "1608554645",
+    "address": "Καναρη 75",
+    "department": "Εργατης",
+    "responsibilities": "Εργατης",
+    "specialization": "Πληροφορικης",
+    "degree_available": "degrees/Στιγμιότυπο_οθόνης_2024-11-15_165753_QUa9sPa.png",
+    "salary": "50.00",
+    "iban": "γρ12321321332",
+    "hiring_date": "2025-01-23",
+    "employee_status": "Ενεργη",
+    "termination_date": "2025-01-23",
+    "medical_exams": "Ναι",
+    "medical_exams_date": "2025-01-23",
+    "medical_exams_renewal_date": "2025-01-23",
+    "safety_passport": "Ναι",
+    "safety_passport_date": "2025-01-23",
+    "safety_passport_renewal_date": "2025-01-23",
+    "certifications_seminars": "Ναι ΠΙΣΤΟΠΟΙΣΗΣΗ1 -2 -33 -4"
+  }
+},
+{
+  "model": "egnatia_app.basicinfo",
+  "pk": 2,
+  "fields": {
+    "first_name": "Jock",
+    "last_name": "Won",
+    "father_name": "Wan",
+    "location": "Athens",
+    "gender": "APPEN",
+    "marital_status": "Married",
+    "date_of_birth": "1985-02-05",
+    "mobile_phone": "65645664",
+    "landline_phone": "211121121",
+    "email": "kockwon@gmail.com",
+    "tax_id": "48894464",
+    "address": "Pedeli",
+    "department": "Pedelis",
+    "responsibilities": "Xeiristis",
+    "specialization": "Xeiristi",
+    "degree_available": "degrees/11.png",
+    "salary": "50.00",
+    "iban": "2410 4285 2344 6543",
+    "hiring_date": "2025-02-05",
+    "employee_status": "Active",
+    "termination_date": "2025-02-05",
+    "medical_exams": "4444",
+    "medical_exams_date": "2025-02-05",
+    "medical_exams_renewal_date": "2025-02-05",
+    "safety_passport": "444444",
+    "safety_passport_date": "2025-02-05",
+    "safety_passport_renewal_date": "2025-02-05",
+    "certifications_seminars": "444444"
+  }
+},
+{
+  "model": "egnatia_app.basicinfo",
+  "pk": 3,
+  "fields": {
+    "first_name": "Μελετης",
+    "last_name": "ΣΣιδερης",
+    "father_name": "Γιαννης",
+    "location": "Αθηνα",
+    "gender": "Αρρεν",
+    "marital_status": "Εγγκαμος",
+    "date_of_birth": "1975-02-05",
+    "mobile_phone": "6945454454",
+    "landline_phone": "2110002101",
+    "email": "Mel_Sideris@gmail.com",
+    "tax_id": "160564656",
+    "address": "",
+    "department": null,
+    "responsibilities": "",
+    "specialization": null,
+    "degree_available": "",
+    "salary": "55.00",
+    "iban": null,
+    "hiring_date": null,
+    "employee_status": null,
+    "termination_date": null,
+    "medical_exams": null,
+    "medical_exams_date": null,
+    "medical_exams_renewal_date": null,
+    "safety_passport": null,
+    "safety_passport_date": null,
+    "safety_passport_renewal_date": null,
+    "certifications_seminars": ""
+  }
+},
+{
+  "model": "egnatia_app.basicinfo",
+  "pk": 4,
+  "fields": {
+    "first_name": "Γιαννος",
+    "last_name": "Ιβανοβ",
+    "father_name": "Πετρο",
+    "location": "Αθηνα",
+    "gender": "Αρρεν",
+    "marital_status": "Αγγαμος",
+    "date_of_birth": null,
+    "mobile_phone": null,
+    "landline_phone": null,
+    "email": "IvanovG@gmail.com",
+    "tax_id": null,
+    "address": "",
+    "department": null,
+    "responsibilities": "",
+    "specialization": null,
+    "degree_available": "",
+    "salary": "50.00",
+    "iban": null,
+    "hiring_date": null,
+    "employee_status": null,
+    "termination_date": null,
+    "medical_exams": null,
+    "medical_exams_date": null,
+    "medical_exams_renewal_date": null,
+    "safety_passport": null,
+    "safety_passport_date": null,
+    "safety_passport_renewal_date": null,
+    "certifications_seminars": ""
+  }
+},
+{
+  "model": "egnatia_app.basicinfo",
+  "pk": 5,
+  "fields": {
+    "first_name": "Ometin",
+    "last_name": "Gul",
+    "father_name": "Amet",
+    "location": "Athens",
+    "gender": "APPEN",
+    "marital_status": "AGGAMOS",
+    "date_of_birth": null,
+    "mobile_phone": null,
+    "landline_phone": null,
+    "email": "ometinMEt@gmail.com",
+    "tax_id": null,
+    "address": "",
+    "department": null,
+    "responsibilities": "",
+    "specialization": null,
+    "degree_available": "",
+    "salary": "50.00",
+    "iban": null,
+    "hiring_date": null,
+    "employee_status": null,
+    "termination_date": null,
+    "medical_exams": null,
+    "medical_exams_date": null,
+    "medical_exams_renewal_date": null,
+    "safety_passport": null,
+    "safety_passport_date": null,
+    "safety_passport_renewal_date": null,
+    "certifications_seminars": ""
+  }
+},
+{
+  "model": "egnatia_app.basicinfo",
+  "pk": 6,
+  "fields": {
+    "first_name": "George",
+    "last_name": "Skoufas",
+    "father_name": "Adonis",
+    "location": "Athens",
+    "gender": "APPEN",
+    "marital_status": "AGGAMOS",
+    "date_of_birth": null,
+    "mobile_phone": null,
+    "landline_phone": null,
+    "email": "george_Skoufas@gmail.com",
+    "tax_id": null,
+    "address": "",
+    "department": null,
+    "responsibilities": "",
+    "specialization": null,
+    "degree_available": "",
+    "salary": "55.00",
+    "iban": null,
+    "hiring_date": null,
+    "employee_status": null,
+    "termination_date": null,
+    "medical_exams": null,
+    "medical_exams_date": null,
+    "medical_exams_renewal_date": null,
+    "safety_passport": null,
+    "safety_passport_date": null,
+    "safety_passport_renewal_date": null,
+    "certifications_seminars": ""
+  }
+},
+{
+  "model": "egnatia_app.basicinfo",
+  "pk": 7,
+  "fields": {
+    "first_name": "Ηλιας",
+    "last_name": "Γενακης",
+    "father_name": "Κωστας",
+    "location": "Αθηνα",
+    "gender": "Αρρεν",
+    "marital_status": "Αγγαμος",
+    "date_of_birth": null,
+    "mobile_phone": null,
+    "landline_phone": null,
+    "email": "genakis_k@gmail.com",
+    "tax_id": null,
+    "address": "",
+    "department": null,
+    "responsibilities": "",
+    "specialization": null,
+    "degree_available": "",
+    "salary": "60.00",
+    "iban": null,
+    "hiring_date": null,
+    "employee_status": null,
+    "termination_date": null,
+    "medical_exams": null,
+    "medical_exams_date": null,
+    "medical_exams_renewal_date": null,
+    "safety_passport": null,
+    "safety_passport_date": null,
+    "safety_passport_renewal_date": null,
+    "certifications_seminars": ""
+  }
+},
+{
+  "model": "egnatia_app.otherknowledge",
+  "pk": 1,
+  "fields": {
+    "basic_info": 1,
+    "skill_name": "Προγραμματιστης",
+    "skill_2_name": "Χειρηστης",
+    "skill_3_name": "Στατιστικη Αναλυση"
+  }
+},
+{
+  "model": "egnatia_app.attendancereport",
+  "pk": 3,
+  "fields": {
+    "group": 1,
+    "date": "2025-02-04"
+  }
+},
+{
+  "model": "egnatia_app.attendancereport",
+  "pk": 4,
+  "fields": {
+    "group": 1,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.attendancereport",
+  "pk": 5,
+  "fields": {
+    "group": 1,
+    "date": "2025-01-01"
+  }
+},
+{
+  "model": "egnatia_app.attendancereport",
+  "pk": 6,
+  "fields": {
+    "group": 1,
+    "date": "2025-02-14"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 25,
+  "fields": {
+    "attendance_report": 3,
+    "basic_info": 1,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 26,
+  "fields": {
+    "attendance_report": 3,
+    "basic_info": 2,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 27,
+  "fields": {
+    "attendance_report": 3,
+    "basic_info": 3,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 28,
+  "fields": {
+    "attendance_report": 3,
+    "basic_info": 4,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 29,
+  "fields": {
+    "attendance_report": 3,
+    "basic_info": 5,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 30,
+  "fields": {
+    "attendance_report": 3,
+    "basic_info": 6,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 31,
+  "fields": {
+    "attendance_report": 3,
+    "basic_info": 7,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 32,
+  "fields": {
+    "attendance_report": null,
+    "basic_info": 1,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 33,
+  "fields": {
+    "attendance_report": 4,
+    "basic_info": 1,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 34,
+  "fields": {
+    "attendance_report": 4,
+    "basic_info": 2,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 35,
+  "fields": {
+    "attendance_report": 4,
+    "basic_info": 3,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 36,
+  "fields": {
+    "attendance_report": 4,
+    "basic_info": 4,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 37,
+  "fields": {
+    "attendance_report": 4,
+    "basic_info": 5,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 38,
+  "fields": {
+    "attendance_report": 4,
+    "basic_info": 6,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 39,
+  "fields": {
+    "attendance_report": 4,
+    "basic_info": 7,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 40,
+  "fields": {
+    "attendance_report": 5,
+    "basic_info": 4,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 41,
+  "fields": {
+    "attendance_report": 5,
+    "basic_info": 1,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 42,
+  "fields": {
+    "attendance_report": 5,
+    "basic_info": 3,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 43,
+  "fields": {
+    "attendance_report": 5,
+    "basic_info": 5,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-05"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 50,
+  "fields": {
+    "attendance_report": 6,
+    "basic_info": 1,
+    "presence": "YES",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-14"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 51,
+  "fields": {
+    "attendance_report": 6,
+    "basic_info": 2,
+    "presence": "NO",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-14"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 52,
+  "fields": {
+    "attendance_report": 6,
+    "basic_info": 3,
+    "presence": "NO",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-14"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 53,
+  "fields": {
+    "attendance_report": 6,
+    "basic_info": 4,
+    "presence": "NO",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-14"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 54,
+  "fields": {
+    "attendance_report": 6,
+    "basic_info": 5,
+    "presence": "NO",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-14"
+  }
+},
+{
+  "model": "egnatia_app.dailyattendance",
+  "pk": 55,
+  "fields": {
+    "attendance_report": 6,
+    "basic_info": 6,
+    "presence": "NO",
+    "quantity": null,
+    "po_number": null,
+    "site_id": null,
+    "site_name": null,
+    "date": "2025-02-14"
+  }
+},
+{
+  "model": "egnatia_app.customer",
+  "pk": 1,
+  "fields": {
+    "name": "Ote",
+    "total_meters_assigned": 2000,
+    "total_freatio_assigned": 40,
+    "total_cabins_assigned": 5,
+    "total_catheta_assigned": 200,
+    "total_meters_done": 250,
+    "total_freatio_done": 20,
+    "total_cabins_done": 1,
+    "total_catheta_done": 15
+  }
+},
+{
+  "model": "egnatia_app.customer",
+  "pk": 2,
+  "fields": {
+    "name": "Vodafone",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.customer",
+  "pk": 3,
+  "fields": {
+    "name": "Kourasis",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.customer",
+  "pk": 4,
+  "fields": {
+    "name": "Nova",
+    "total_meters_assigned": 0,
+    "total_freatio_assigned": 0,
+    "total_cabins_assigned": 0,
+    "total_catheta_assigned": 0,
+    "total_meters_done": 0,
+    "total_freatio_done": 0,
+    "total_cabins_done": 0,
+    "total_catheta_done": 0
+  }
+},
+{
+  "model": "egnatia_app.assignjob",
+  "pk": 1,
+  "fields": {
+    "customer": 1,
+    "region": 1,
+    "group": 1,
+    "meters": 2000,
+    "freatio": 40,
+    "cabins": 5,
+    "katheta": 200,
+    "meters_done": 250,
+    "freatio_done": 20,
+    "cabins_done": 1,
+    "katheta_done": 15,
+    "assigned_date": "2025-02-05T08:06:04.798Z"
+  }
+},
+{
+  "model": "egnatia_app.dailyprogram",
+  "pk": 1,
+  "fields": {
+    "group": 1,
+    "region": 1,
+    "customer": 1,
+    "program_pdf_file": "daily_programs/11_kMXRVe7.png",
+    "total_meters_assigned": 200,
+    "total_freatio_assigned": 10,
+    "total_cabins_assigned": 5,
+    "total_catheta_assigned": 5,
+    "total_meters_done": 200,
+    "total_freatio_done": 10,
+    "total_cabins_done": 3,
+    "total_catheta_done": 7,
+    "date_created": "2025-02-05T08:12:57.896Z"
+  }
+},
+{
+  "model": "egnatia_app.dailyprogram",
+  "pk": 2,
+  "fields": {
+    "group": 1,
+    "region": 1,
+    "customer": 1,
+    "program_pdf_file": "daily_programs/d1.png",
+    "total_meters_assigned": 300,
+    "total_freatio_assigned": 20,
+    "total_cabins_assigned": 1,
+    "total_catheta_assigned": 15,
+    "total_meters_done": 250,
+    "total_freatio_done": 20,
+    "total_cabins_done": 1,
+    "total_catheta_done": 15,
+    "date_created": "2025-02-05T08:13:50.746Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add basic info",
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "codename": "add_basicinfo"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change basic info",
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "codename": "change_basicinfo"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete basic info",
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "codename": "delete_basicinfo"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view basic info",
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "codename": "view_basicinfo"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add studies",
+    "content_type": [
+      "egnatia_app",
+      "studies"
+    ],
+    "codename": "add_studies"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change studies",
+    "content_type": [
+      "egnatia_app",
+      "studies"
+    ],
+    "codename": "change_studies"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete studies",
+    "content_type": [
+      "egnatia_app",
+      "studies"
+    ],
+    "codename": "delete_studies"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view studies",
+    "content_type": [
+      "egnatia_app",
+      "studies"
+    ],
+    "codename": "view_studies"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add work experience",
+    "content_type": [
+      "egnatia_app",
+      "workexperience"
+    ],
+    "codename": "add_workexperience"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change work experience",
+    "content_type": [
+      "egnatia_app",
+      "workexperience"
+    ],
+    "codename": "change_workexperience"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete work experience",
+    "content_type": [
+      "egnatia_app",
+      "workexperience"
+    ],
+    "codename": "delete_workexperience"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view work experience",
+    "content_type": [
+      "egnatia_app",
+      "workexperience"
+    ],
+    "codename": "view_workexperience"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add seminar training",
+    "content_type": [
+      "egnatia_app",
+      "seminartraining"
+    ],
+    "codename": "add_seminartraining"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change seminar training",
+    "content_type": [
+      "egnatia_app",
+      "seminartraining"
+    ],
+    "codename": "change_seminartraining"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete seminar training",
+    "content_type": [
+      "egnatia_app",
+      "seminartraining"
+    ],
+    "codename": "delete_seminartraining"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view seminar training",
+    "content_type": [
+      "egnatia_app",
+      "seminartraining"
+    ],
+    "codename": "view_seminartraining"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add other languages",
+    "content_type": [
+      "egnatia_app",
+      "otherlanguages"
+    ],
+    "codename": "add_otherlanguages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change other languages",
+    "content_type": [
+      "egnatia_app",
+      "otherlanguages"
+    ],
+    "codename": "change_otherlanguages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete other languages",
+    "content_type": [
+      "egnatia_app",
+      "otherlanguages"
+    ],
+    "codename": "delete_otherlanguages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view other languages",
+    "content_type": [
+      "egnatia_app",
+      "otherlanguages"
+    ],
+    "codename": "view_otherlanguages"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add other knowledge",
+    "content_type": [
+      "egnatia_app",
+      "otherknowledge"
+    ],
+    "codename": "add_otherknowledge"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change other knowledge",
+    "content_type": [
+      "egnatia_app",
+      "otherknowledge"
+    ],
+    "codename": "change_otherknowledge"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete other knowledge",
+    "content_type": [
+      "egnatia_app",
+      "otherknowledge"
+    ],
+    "codename": "delete_otherknowledge"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view other knowledge",
+    "content_type": [
+      "egnatia_app",
+      "otherknowledge"
+    ],
+    "codename": "view_otherknowledge"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add daily attendance",
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "codename": "add_dailyattendance"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change daily attendance",
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "codename": "change_dailyattendance"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete daily attendance",
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "codename": "delete_dailyattendance"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view daily attendance",
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "codename": "view_dailyattendance"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add role",
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "codename": "add_role"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change role",
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "codename": "change_role"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete role",
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "codename": "delete_role"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view role",
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "codename": "view_role"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add employee",
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "codename": "add_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change employee",
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "codename": "change_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete employee",
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "codename": "delete_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view employee",
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "codename": "view_employee"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add department",
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "codename": "add_department"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change department",
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "codename": "change_department"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete department",
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "codename": "delete_department"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view department",
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "codename": "view_department"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add region",
+    "content_type": [
+      "egnatia_app",
+      "region"
+    ],
+    "codename": "add_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change region",
+    "content_type": [
+      "egnatia_app",
+      "region"
+    ],
+    "codename": "change_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete region",
+    "content_type": [
+      "egnatia_app",
+      "region"
+    ],
+    "codename": "delete_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view region",
+    "content_type": [
+      "egnatia_app",
+      "region"
+    ],
+    "codename": "view_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group department",
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "codename": "add_groupdepartment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group department",
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "codename": "change_groupdepartment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group department",
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "codename": "delete_groupdepartment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group department",
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "codename": "view_groupdepartment"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add cancel",
+    "content_type": [
+      "egnatia_app",
+      "cancel"
+    ],
+    "codename": "add_cancel"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change cancel",
+    "content_type": [
+      "egnatia_app",
+      "cancel"
+    ],
+    "codename": "change_cancel"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete cancel",
+    "content_type": [
+      "egnatia_app",
+      "cancel"
+    ],
+    "codename": "delete_cancel"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view cancel",
+    "content_type": [
+      "egnatia_app",
+      "cancel"
+    ],
+    "codename": "view_cancel"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add info old new",
+    "content_type": [
+      "egnatia_app",
+      "infooldnew"
+    ],
+    "codename": "add_infooldnew"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change info old new",
+    "content_type": [
+      "egnatia_app",
+      "infooldnew"
+    ],
+    "codename": "change_infooldnew"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete info old new",
+    "content_type": [
+      "egnatia_app",
+      "infooldnew"
+    ],
+    "codename": "delete_infooldnew"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view info old new",
+    "content_type": [
+      "egnatia_app",
+      "infooldnew"
+    ],
+    "codename": "view_infooldnew"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add close bc",
+    "content_type": [
+      "egnatia_app",
+      "closebc"
+    ],
+    "codename": "add_closebc"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change close bc",
+    "content_type": [
+      "egnatia_app",
+      "closebc"
+    ],
+    "codename": "change_closebc"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete close bc",
+    "content_type": [
+      "egnatia_app",
+      "closebc"
+    ],
+    "codename": "delete_closebc"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view close bc",
+    "content_type": [
+      "egnatia_app",
+      "closebc"
+    ],
+    "codename": "view_closebc"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add closed ssr",
+    "content_type": [
+      "egnatia_app",
+      "closedssr"
+    ],
+    "codename": "add_closedssr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change closed ssr",
+    "content_type": [
+      "egnatia_app",
+      "closedssr"
+    ],
+    "codename": "change_closedssr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete closed ssr",
+    "content_type": [
+      "egnatia_app",
+      "closedssr"
+    ],
+    "codename": "delete_closedssr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view closed ssr",
+    "content_type": [
+      "egnatia_app",
+      "closedssr"
+    ],
+    "codename": "view_closedssr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add info",
+    "content_type": [
+      "egnatia_app",
+      "info"
+    ],
+    "codename": "add_info"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change info",
+    "content_type": [
+      "egnatia_app",
+      "info"
+    ],
+    "codename": "change_info"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete info",
+    "content_type": [
+      "egnatia_app",
+      "info"
+    ],
+    "codename": "delete_info"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view info",
+    "content_type": [
+      "egnatia_app",
+      "info"
+    ],
+    "codename": "view_info"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add wfm",
+    "content_type": [
+      "egnatia_app",
+      "wfm"
+    ],
+    "codename": "add_wfm"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change wfm",
+    "content_type": [
+      "egnatia_app",
+      "wfm"
+    ],
+    "codename": "change_wfm"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete wfm",
+    "content_type": [
+      "egnatia_app",
+      "wfm"
+    ],
+    "codename": "delete_wfm"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view wfm",
+    "content_type": [
+      "egnatia_app",
+      "wfm"
+    ],
+    "codename": "view_wfm"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add assign",
+    "content_type": [
+      "egnatia_app",
+      "assign"
+    ],
+    "codename": "add_assign"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change assign",
+    "content_type": [
+      "egnatia_app",
+      "assign"
+    ],
+    "codename": "change_assign"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete assign",
+    "content_type": [
+      "egnatia_app",
+      "assign"
+    ],
+    "codename": "delete_assign"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view assign",
+    "content_type": [
+      "egnatia_app",
+      "assign"
+    ],
+    "codename": "view_assign"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add info code sr",
+    "content_type": [
+      "egnatia_app",
+      "infocodesr"
+    ],
+    "codename": "add_infocodesr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change info code sr",
+    "content_type": [
+      "egnatia_app",
+      "infocodesr"
+    ],
+    "codename": "change_infocodesr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete info code sr",
+    "content_type": [
+      "egnatia_app",
+      "infocodesr"
+    ],
+    "codename": "delete_infocodesr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view info code sr",
+    "content_type": [
+      "egnatia_app",
+      "infocodesr"
+    ],
+    "codename": "view_infocodesr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add sr",
+    "content_type": [
+      "egnatia_app",
+      "sr"
+    ],
+    "codename": "add_sr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change sr",
+    "content_type": [
+      "egnatia_app",
+      "sr"
+    ],
+    "codename": "change_sr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete sr",
+    "content_type": [
+      "egnatia_app",
+      "sr"
+    ],
+    "codename": "delete_sr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view sr",
+    "content_type": [
+      "egnatia_app",
+      "sr"
+    ],
+    "codename": "view_sr"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add customer",
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "codename": "add_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change customer",
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "codename": "change_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete customer",
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "codename": "delete_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view customer",
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "codename": "view_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add daily program",
+    "content_type": [
+      "egnatia_app",
+      "dailyprogram"
+    ],
+    "codename": "add_dailyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change daily program",
+    "content_type": [
+      "egnatia_app",
+      "dailyprogram"
+    ],
+    "codename": "change_dailyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete daily program",
+    "content_type": [
+      "egnatia_app",
+      "dailyprogram"
+    ],
+    "codename": "delete_dailyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view daily program",
+    "content_type": [
+      "egnatia_app",
+      "dailyprogram"
+    ],
+    "codename": "view_dailyprogram"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add assign job",
+    "content_type": [
+      "egnatia_app",
+      "assignjob"
+    ],
+    "codename": "add_assignjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change assign job",
+    "content_type": [
+      "egnatia_app",
+      "assignjob"
+    ],
+    "codename": "change_assignjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete assign job",
+    "content_type": [
+      "egnatia_app",
+      "assignjob"
+    ],
+    "codename": "delete_assignjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view assign job",
+    "content_type": [
+      "egnatia_app",
+      "assignjob"
+    ],
+    "codename": "view_assignjob"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add attendance report",
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "codename": "add_attendancereport"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change attendance report",
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "codename": "change_attendancereport"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete attendance report",
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "codename": "delete_attendancereport"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view attendance report",
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "codename": "view_attendancereport"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Ssp2HcLvCYPLjNHhtHwnEn$wGRNddSWjmhnRgddj9+xlv3yG/sxjduoORVExmy7j/w=",
+    "last_login": "2025-02-16T10:07:23.381Z",
+    "is_superuser": true,
+    "username": "Egnatia",
+    "first_name": "",
+    "last_name": "",
+    "email": "koniniant@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-01-23T19:19:50.890Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-01-23T19:22:43.529Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "1",
+    "object_repr": "Αντωνης Κονινι",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-01-23T19:23:19.546Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "otherknowledge"
+    ],
+    "object_id": "1",
+    "object_repr": "Other Knowledge: Προγραμματιστης",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-01-23T20:28:00.975Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "1",
+    "object_repr": "Αντωνης Κονινι - 2025-01-23",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-01-23T20:28:46.289Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "1",
+    "object_repr": "Αντωνης Κονινι",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u039c\\u03b9\\u03c3\\u03b8\\u03cc\\u03c2\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-01-23T20:34:06.827Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "1",
+    "object_repr": "Αντωνης Κονινι - 2025-01-22",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0397\\u039c\\u0395\\u03a1\\u039f\\u039c\\u0397\\u039d\\u0399\\u0391\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-01-23T20:39:10.263Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "2",
+    "object_repr": "Αντωνης Κονινι - 2025-01-21",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-01-23T20:40:13.557Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "3",
+    "object_repr": "Αντωνης Κονινι - 2025-01-17",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-01-24T15:58:45.725Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "4",
+    "object_repr": "Αντωνης Κονινι - 2025-01-24",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-01-25T17:15:33.344Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "region"
+    ],
+    "object_id": "1",
+    "object_repr": "Attiki",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-01-25T17:15:50.192Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "region"
+    ],
+    "object_id": "2",
+    "object_repr": "Kastoria",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-01-25T17:16:18.609Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Ometin Group (Attiki)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-01-25T17:16:30.272Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "2",
+    "object_repr": "Leonidas Group (Attiki)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-01-25T17:17:12.807Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "3",
+    "object_repr": "Nodas (Attiki)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-01-25T17:19:07.199Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "1",
+    "object_repr": "Ergodigoi (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-01-25T17:19:20.086Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "2",
+    "object_repr": "Xeiristes (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-01-25T17:21:09.157Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "3",
+    "object_repr": "Mixanikos (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-01-25T17:21:24.853Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "4",
+    "object_repr": "Mastoras (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-01-25T17:21:40.868Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-01-25T17:23:22.468Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "1",
+    "object_repr": "Ergodigos (Ergodigoi)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-01-25T17:23:34.216Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "2",
+    "object_repr": "Xeiristis (Xeiristes)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-01-25T17:23:53.610Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "3",
+    "object_repr": "Mixanikos (Mixanikos)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-01-25T17:24:04.562Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "3",
+    "object_repr": "Mixanikos A (Mixanikos)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-01-25T17:24:19.018Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "4",
+    "object_repr": "Mixanikos B (Mixanikos)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-01-25T17:24:42.346Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "5",
+    "object_repr": "Xeiristis B' (Xeiristes)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-01-25T17:24:56.322Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "6",
+    "object_repr": "Ydravlikos (Mastoras)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-01-25T17:36:29.245Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "1",
+    "object_repr": "Αντωνης Κονινι - Ergodigos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-01-25T17:42:00.020Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "4",
+    "object_repr": "greoup1 (Attiki)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-01-25T18:20:48.740Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "1",
+    "object_repr": "Ometin Group (Attiki)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-01-25T18:21:10.628Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "5",
+    "object_repr": "Αντωνης Κονινι - 2025-01-25",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-01-25T18:51:42.474Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "1",
+    "object_repr": "Ergodigoi (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-01-25T18:52:01.464Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "2",
+    "object_repr": "Xeiristes (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-01-25T18:52:13.153Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "3",
+    "object_repr": "Mixanikos (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-01-25T18:52:22.760Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "4",
+    "object_repr": "Mastoras (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-01-25T18:52:29.321Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-01-26T14:22:03.352Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "5",
+    "object_repr": "Kastoria group (Kastoria)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-01-26T14:27:22.053Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "6",
+    "object_repr": "Ergodigoi (Kastoria group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-01-26T14:27:27.536Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "7",
+    "object_repr": "Xeiristes (Kastoria group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-01-26T14:27:36.056Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "8",
+    "object_repr": "Mixanikos (Kastoria group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2025-01-26T14:27:42.193Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "9",
+    "object_repr": "Mastoras (Kastoria group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2025-01-26T14:27:49.912Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "10",
+    "object_repr": "Ergates (Kastoria group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2025-01-26T16:02:13.905Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "5",
+    "object_repr": "Kastoria group (Kastoria)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2025-01-26T16:02:22.799Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "group"
+    ],
+    "object_id": "6",
+    "object_repr": "Kastoria (Kastoria)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2025-02-05T07:25:57.677Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "2",
+    "object_repr": "Jock Won",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2025-02-05T07:27:24.428Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "3",
+    "object_repr": "Μελετης ΣΣιδερης",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2025-02-05T07:27:51.688Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "3",
+    "object_repr": "Μελετης ΣΣιδερης",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0391\\u03a6\\u039c\", \"\\u039c\\u03b9\\u03c3\\u03b8\\u03cc\\u03c2\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2025-02-05T07:28:44.345Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "4",
+    "object_repr": "Γιαννος Ιβανοβ",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2025-02-05T07:29:41.302Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "5",
+    "object_repr": "Ometin Gul",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2025-02-05T07:30:33.488Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "6",
+    "object_repr": "George Skoufas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2025-02-05T07:33:07.820Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "basicinfo"
+    ],
+    "object_id": "7",
+    "object_repr": "Ηλιας Γενακης",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2025-02-05T07:33:38.683Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "2",
+    "object_repr": "Jock Won - Xeiristis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2025-02-05T07:33:56.946Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "3",
+    "object_repr": "Μελετης ΣΣιδερης - Xeiristis B'",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2025-02-05T07:34:47.133Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "7",
+    "object_repr": "Ergates (Ergates)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2025-02-05T07:35:46.684Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "4",
+    "object_repr": "Γιαννος Ιβανοβ - Ergates",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2025-02-05T07:36:15.321Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "5",
+    "object_repr": "Ometin Gul - Ergodigos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2025-02-05T07:36:29.670Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "6",
+    "object_repr": "George Skoufas - Mixanikos A",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2025-02-05T07:50:41.442Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "object_id": "1",
+    "object_repr": "Ote",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2025-02-05T07:51:00.258Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "6",
+    "object_repr": "Αντωνης Κονινι - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2025-02-05T07:51:10.709Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "7",
+    "object_repr": "Jock Won - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2025-02-05T07:51:21.201Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "8",
+    "object_repr": "Μελετης ΣΣιδερης - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2025-02-05T07:51:32.274Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "9",
+    "object_repr": "Γιαννος Ιβανοβ - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2025-02-05T07:51:43.585Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "10",
+    "object_repr": "Ometin Gul - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2025-02-05T07:51:52.740Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "11",
+    "object_repr": "George Skoufas - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2025-02-05T07:52:05.041Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "12",
+    "object_repr": "Ηλιας Γενακης - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2025-02-05T08:06:04.814Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "assignjob"
+    ],
+    "object_id": "1",
+    "object_repr": "Assignment for Ote - Ometin Group (Attiki)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2025-02-05T08:06:57.881Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "object_id": "2",
+    "object_repr": "Vodafone",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2025-02-05T08:07:19.888Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "object_id": "3",
+    "object_repr": "Kourasis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2025-02-05T08:07:25.879Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "customer"
+    ],
+    "object_id": "4",
+    "object_repr": "Nova",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2025-02-05T08:12:57.912Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyprogram"
+    ],
+    "object_id": "1",
+    "object_repr": "Daily Program - Ote - Ometin Group (Attiki) - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2025-02-05T08:13:50.762Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyprogram"
+    ],
+    "object_id": "2",
+    "object_repr": "Daily Program - Ote - Ometin Group (Attiki) - 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2025-02-05T08:38:29.270Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "1",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0391\\u03bd\\u03c4\\u03c9\\u03bd\\u03b7\\u03c2 \\u039a\\u03bf\\u03bd\\u03b9\\u03bd\\u03b9 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Jock Won - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u039c\\u03b5\\u03bb\\u03b5\\u03c4\\u03b7\\u03c2 \\u03a3\\u03a3\\u03b9\\u03b4\\u03b5\\u03c1\\u03b7\\u03c2 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0393\\u03b9\\u03b1\\u03bd\\u03bd\\u03bf\\u03c2 \\u0399\\u03b2\\u03b1\\u03bd\\u03bf\\u03b2 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Ometin Gul - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"George Skoufas - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0397\\u03bb\\u03b9\\u03b1\\u03c2 \\u0393\\u03b5\\u03bd\\u03b1\\u03ba\\u03b7\\u03c2 - 2025-02-05\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2025-02-05T09:04:13.465Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "2",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0391\\u03bd\\u03c4\\u03c9\\u03bd\\u03b7\\u03c2 \\u039a\\u03bf\\u03bd\\u03b9\\u03bd\\u03b9 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Jock Won - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u039c\\u03b5\\u03bb\\u03b5\\u03c4\\u03b7\\u03c2 \\u03a3\\u03a3\\u03b9\\u03b4\\u03b5\\u03c1\\u03b7\\u03c2 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"George Skoufas - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0393\\u03b9\\u03b1\\u03bd\\u03bd\\u03bf\\u03c2 \\u0399\\u03b2\\u03b1\\u03bd\\u03bf\\u03b2 - 2025-02-05\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.562Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "24",
+    "object_repr": "Γιαννος Ιβανοβ - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.562Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "23",
+    "object_repr": "George Skoufas - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.562Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "22",
+    "object_repr": "Μελετης ΣΣιδερης - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.562Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "21",
+    "object_repr": "Jock Won - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.562Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "20",
+    "object_repr": "Αντωνης Κονινι - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.562Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "19",
+    "object_repr": "Ηλιας Γενακης - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "18",
+    "object_repr": "George Skoufas - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "17",
+    "object_repr": "Ometin Gul - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "16",
+    "object_repr": "Γιαννος Ιβανοβ - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "15",
+    "object_repr": "Μελετης ΣΣιδερης - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "14",
+    "object_repr": "Jock Won - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "13",
+    "object_repr": "Αντωνης Κονινι - 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "12",
+    "object_repr": "Ηλιας Γενακης - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.578Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "11",
+    "object_repr": "George Skoufas - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "10",
+    "object_repr": "Ometin Gul - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "9",
+    "object_repr": "Γιαννος Ιβανοβ - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "8",
+    "object_repr": "Μελετης ΣΣιδερης - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "7",
+    "object_repr": "Jock Won - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "6",
+    "object_repr": "Αντωνης Κονινι - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "5",
+    "object_repr": "Αντωνης Κονινι - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "4",
+    "object_repr": "Αντωνης Κονινι - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "3",
+    "object_repr": "Αντωνης Κονινι - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.593Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "2",
+    "object_repr": "Αντωνης Κονινι - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2025-02-05T09:15:07.609Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "1",
+    "object_repr": "Αντωνης Κονινι - No Attendance Report",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2025-02-05T09:15:21.691Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "2",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2025-02-05T09:15:21.691Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "1",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-05",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2025-02-05T09:15:43.900Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "3",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0391\\u03bd\\u03c4\\u03c9\\u03bd\\u03b7\\u03c2 \\u039a\\u03bf\\u03bd\\u03b9\\u03bd\\u03b9 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Jock Won - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u039c\\u03b5\\u03bb\\u03b5\\u03c4\\u03b7\\u03c2 \\u03a3\\u03a3\\u03b9\\u03b4\\u03b5\\u03c1\\u03b7\\u03c2 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0393\\u03b9\\u03b1\\u03bd\\u03bd\\u03bf\\u03c2 \\u0399\\u03b2\\u03b1\\u03bd\\u03bf\\u03b2 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Ometin Gul - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"George Skoufas - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0397\\u03bb\\u03b9\\u03b1\\u03c2 \\u0393\\u03b5\\u03bd\\u03b1\\u03ba\\u03b7\\u03c2 - 2025-02-05\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2025-02-05T09:17:23.176Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "32",
+    "object_repr": "Αντωνης Κονινι - No Attendance Report",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2025-02-05T09:17:48.557Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "3",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-05",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"daily attendance\", \"object\": \"\\u0391\\u03bd\\u03c4\\u03c9\\u03bd\\u03b7\\u03c2 \\u039a\\u03bf\\u03bd\\u03b9\\u03bd\\u03b9 - 2025-02-05\", \"fields\": [\"Presence\"]}}, {\"changed\": {\"name\": \"daily attendance\", \"object\": \"Jock Won - 2025-02-05\", \"fields\": [\"Presence\"]}}, {\"changed\": {\"name\": \"daily attendance\", \"object\": \"\\u039c\\u03b5\\u03bb\\u03b5\\u03c4\\u03b7\\u03c2 \\u03a3\\u03a3\\u03b9\\u03b4\\u03b5\\u03c1\\u03b7\\u03c2 - 2025-02-05\", \"fields\": [\"Presence\"]}}, {\"changed\": {\"name\": \"daily attendance\", \"object\": \"\\u0393\\u03b9\\u03b1\\u03bd\\u03bd\\u03bf\\u03c2 \\u0399\\u03b2\\u03b1\\u03bd\\u03bf\\u03b2 - 2025-02-05\", \"fields\": [\"Presence\"]}}, {\"changed\": {\"name\": \"daily attendance\", \"object\": \"Ometin Gul - 2025-02-05\", \"fields\": [\"Presence\"]}}, {\"changed\": {\"name\": \"daily attendance\", \"object\": \"George Skoufas - 2025-02-05\", \"fields\": [\"Presence\"]}}, {\"changed\": {\"name\": \"daily attendance\", \"object\": \"\\u0397\\u03bb\\u03b9\\u03b1\\u03c2 \\u0393\\u03b5\\u03bd\\u03b1\\u03ba\\u03b7\\u03c2 - 2025-02-05\", \"fields\": [\"Presence\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2025-02-05T09:18:11.569Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "3",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-04",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2025-02-05T09:18:49.970Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "4",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-05",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0391\\u03bd\\u03c4\\u03c9\\u03bd\\u03b7\\u03c2 \\u039a\\u03bf\\u03bd\\u03b9\\u03bd\\u03b9 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Jock Won - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u039c\\u03b5\\u03bb\\u03b5\\u03c4\\u03b7\\u03c2 \\u03a3\\u03a3\\u03b9\\u03b4\\u03b5\\u03c1\\u03b7\\u03c2 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0393\\u03b9\\u03b1\\u03bd\\u03bd\\u03bf\\u03c2 \\u0399\\u03b2\\u03b1\\u03bd\\u03bf\\u03b2 - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Ometin Gul - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"George Skoufas - 2025-02-05\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0397\\u03bb\\u03b9\\u03b1\\u03c2 \\u0393\\u03b5\\u03bd\\u03b1\\u03ba\\u03b7\\u03c2 - 2025-02-05\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2025-02-05T09:25:28.053Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2025-02-05T09:33:26.225Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "5",
+    "object_repr": "Attendance Report for Ometin Group on 2025-02-01",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0393\\u03b9\\u03b1\\u03bd\\u03bd\\u03bf\\u03c2 \\u0399\\u03b2\\u03b1\\u03bd\\u03bf\\u03b2 - 2025-02-01\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2025-02-05T09:33:53.512Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates (Leonidas Group)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Group\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2025-02-05T09:34:05.640Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Group\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2025-02-05T09:41:45.091Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "4",
+    "object_repr": "Γιαννος Ιβανοβ - Ergates",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2025-02-05T09:41:55.475Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "7",
+    "object_repr": "Γιαννος Ιβανοβ - Ergates",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2025-02-05T09:42:08.659Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "7",
+    "object_repr": "Γιαννος Ιβανοβ - Ergates",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2025-02-05T09:42:21.728Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2025-02-05T09:42:27.834Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "11",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2025-02-05T09:42:52.558Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "8",
+    "object_repr": "Γιαννος Ιβανοβ - Ergates",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2025-02-05T09:44:06.155Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "11",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2025-02-05T09:44:06.155Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "4",
+    "object_repr": "Mastoras (Ometin Group)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2025-02-05T09:44:06.155Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "3",
+    "object_repr": "Mixanikos (Ometin Group)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2025-02-05T09:44:06.155Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "2",
+    "object_repr": "Xeiristes (Ometin Group)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2025-02-05T09:44:06.155Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "1",
+    "object_repr": "Ergodigoi (Ometin Group)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2025-02-05T09:44:10.390Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "12",
+    "object_repr": "Ergodigoi (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2025-02-05T09:44:15.920Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "13",
+    "object_repr": "Xeiristes (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2025-02-05T09:44:19.729Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "14",
+    "object_repr": "Mixanikos (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2025-02-05T09:44:23.616Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "15",
+    "object_repr": "Mastoras (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2025-02-05T09:44:29.233Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "16",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2025-02-05T09:44:52.356Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2025-02-05T09:44:58.459Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "5",
+    "object_repr": "Ergates",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2025-02-05T09:45:06.570Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "department"
+    ],
+    "object_id": "6",
+    "object_repr": "Ergates",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2025-02-05T09:45:45.089Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "role"
+    ],
+    "object_id": "8",
+    "object_repr": "Ergatiko Dynamiko (Ergates)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2025-02-05T09:45:48.241Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "employee"
+    ],
+    "object_id": "9",
+    "object_repr": "Γιαννος Ιβανοβ - Ergatiko Dynamiko",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2025-02-05T09:46:17.063Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "groupdepartment"
+    ],
+    "object_id": "17",
+    "object_repr": "Ergates (Ometin Group)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2025-02-05T09:56:51.867Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "attendancereport"
+    ],
+    "object_id": "5",
+    "object_repr": "Attendance Report for Ometin Group on 2025-01-01",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Date\"]}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u0391\\u03bd\\u03c4\\u03c9\\u03bd\\u03b7\\u03c2 \\u039a\\u03bf\\u03bd\\u03b9\\u03bd\\u03b9 - 2025-01-01\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"\\u039c\\u03b5\\u03bb\\u03b5\\u03c4\\u03b7\\u03c2 \\u03a3\\u03a3\\u03b9\\u03b4\\u03b5\\u03c1\\u03b7\\u03c2 - 2025-01-01\"}}, {\"added\": {\"name\": \"daily attendance\", \"object\": \"Ometin Gul - 2025-01-01\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2025-02-14T17:03:01.208Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "44",
+    "object_repr": "Ometin Gul - 2025-02-14",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2025-02-14T17:05:17.198Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "49",
+    "object_repr": "George Skoufas - 2025-02-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2025-02-14T17:05:17.198Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "48",
+    "object_repr": "Γιαννος Ιβανοβ - 2025-02-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2025-02-14T17:05:17.209Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "47",
+    "object_repr": "Μελετης ΣΣιδερης - 2025-02-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2025-02-14T17:05:17.213Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "46",
+    "object_repr": "Jock Won - 2025-02-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2025-02-14T17:05:17.213Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "45",
+    "object_repr": "Αντωνης Κονινι - 2025-02-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2025-02-14T17:05:17.213Z",
+    "user": [
+      "Egnatia"
+    ],
+    "content_type": [
+      "egnatia_app",
+      "dailyattendance"
+    ],
+    "object_id": "44",
+    "object_repr": "Ometin Gul - 2025-02-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]
