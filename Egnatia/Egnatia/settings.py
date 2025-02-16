@@ -71,7 +71,7 @@ CORS_ALLOWED_ORIGINS = [
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'frontend/build'],
+        'DIRS': [BASE_DIR / 'frontend/src'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -89,7 +89,6 @@ WSGI_APPLICATION = 'Egnatia.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
 import os
 import dj_database_url
 
@@ -98,6 +97,7 @@ DATABASES = {
         default="postgresql://egnatia:yHlhIqJazyc8vL7DuHajRYpez7ggUOiH@dpg-cup11552ng1s73edvclg-a.oregon-postgres.render.com/egnatia"
     )
 }
+
 
 
 
@@ -138,7 +138,7 @@ STATIC_URL = '/static/'
 
 # Make sure that you only set the static files directory to one correct path
 STATICFILES_DIRS = [
-    BASE_DIR / 'frontend/build/static',]
+    BASE_DIR / 'static',]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
