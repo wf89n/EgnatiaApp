@@ -1,5 +1,5 @@
 # egnatia_app/urls.py or your main urls.py (depending on your setup)
-from django.urls import path
+from django.urls import path,re_path
 from . import views
 from .views import (
     people_by_group,
@@ -27,8 +27,13 @@ urlpatterns = [
     path('people/<int:group_id>/', people_by_group, name='people-by-group'),
     path('attendance-reports/<int:group_id>/', attendance_reports_by_group, name='attendance-reports-by-group'),
     path('submit-attendance/', submit_attendance, name='submit-attendance'),
-    path(r'^.*$', TemplateView.as_view(template_name="index.html"), name="home"),
+    re_path(r'^.*$', TemplateView.as_view(template_name="index.html"), name="home"),
 ]
 
+
+
+from django.conf import settings
+from django.conf.urls.static import static
+import os
 
 urlpatterns += static(settings.STATIC_URL, document_root=os.path.join(settings.BASE_DIR, 'static'))

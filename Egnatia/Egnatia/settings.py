@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -134,13 +134,24 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
+import os
+
+# Ensure STATIC_URL is defined correctly
 STATIC_URL = '/static/'
 
-# Make sure that you only set the static files directory to one correct path
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'frontend', 'build', 'static'), ]
+# Ensure BASE_DIR is correctly set
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Ensure STATICFILES_DIRS is correctly set
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'frontend', 'build', 'static'),
+]
+
+# Collectstatic will use this directory
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Ensure Django serves static files in production
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
