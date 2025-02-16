@@ -66,6 +66,7 @@ ROOT_URLCONF = 'Egnatia.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://egnatiaapp.onrender.com",  # Your Render domain
 ]
 
 TEMPLATES = [
