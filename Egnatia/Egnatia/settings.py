@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-l+sj8#+#ra5!)=ke#yus*e-@9!4#957ajyj_)h0km(e1y0z10a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 import os
 
 # Media settings
@@ -71,7 +71,7 @@ CORS_ALLOWED_ORIGINS = [
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'frontend/build'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -90,15 +90,13 @@ WSGI_APPLICATION = 'Egnatia.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+import os
+import dj_database_url
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'egnatia',
-        'USER': 'egnatia',
-        'PASSWORD': 'hueckomundo1',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    'default': dj_database_url.config(
+        default="postgresql://egnatia:yHlhIqJazyc8vL7DuHajRYpez7ggUOiH@dpg-cup11552ng1s73edvclg-a.oregon-postgres.render.com/egnatia"
+    )
 }
 
 
@@ -140,8 +138,8 @@ STATIC_URL = '/static/'
 
 # Make sure that you only set the static files directory to one correct path
 STATICFILES_DIRS = [
-    BASE_DIR / "static",  # This should be the path to the "static" directory in your project root
-]
+    BASE_DIR / 'frontend/build/static',]
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
