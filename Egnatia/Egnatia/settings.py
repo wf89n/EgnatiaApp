@@ -71,7 +71,7 @@ CORS_ALLOWED_ORIGINS = [
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'frontend/src'],
+        'DIRS': [os.path.join(BASE_DIR, 'frontend', 'build')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -138,7 +138,7 @@ STATIC_URL = '/static/'
 
 # Make sure that you only set the static files directory to one correct path
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',]
+    os.path.join(BASE_DIR, 'frontend', 'build', 'static'), ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
