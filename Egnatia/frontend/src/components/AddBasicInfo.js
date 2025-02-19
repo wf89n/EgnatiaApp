@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import axios from 'axios';
-import './AddBasicInfo.css';
+import './tailwind.css';  // Import your Tailwind CSS file here
 
 const AddBasicInfo = () => {
   const [page, setPage] = useState(1);
@@ -46,20 +46,29 @@ const AddBasicInfo = () => {
   const handleInputChange = (e) => {
     const { name, value, type, files } = e.target;
 
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: type === 'file' ? files[0] : value, // Handle file input
-    }));
+    setFormData((prevData) => {
+      const updatedData = {
+        ...prevData,
+        [name]: type === 'file' ? files[0] : value,
+      };
+      validateForm(updatedData);
+      return updatedData;
+    });
   };
 
   // Validate required fields
-  const validateForm = useCallback(() => {
-    const allRequiredFieldsFilled = requiredFields.every(field => formData[field]?.trim() !== '');
+  const validateForm = useCallback((updatedData) => {
+    const allRequiredFieldsFilled = requiredFields.every((field) => {
+      if (field === 'degree_available') {
+        return updatedData[field] instanceof File; // Check if a file is selected
+      }
+      return updatedData[field]?.trim() !== '';
+    });
     setIsFormValid(allRequiredFieldsFilled);
-  }, [formData, requiredFields]);
+  }, [requiredFields]);
 
   useEffect(() => {
-    validateForm();
+    validateForm(formData);
   }, [formData, validateForm]);
 
   // Handle form submission
@@ -83,7 +92,7 @@ const AddBasicInfo = () => {
 
     try {
       await axios.post('http://localhost:8000/create_basic_info/', formDataToSend, {
-        headers: { 'Content-Type': 'multipart/form-data' }, // Important for file upload
+        headers: { 'Content-Type': 'multipart/form-data' },
       });
       alert('Basic Info added successfully!');
     } catch (error) {
@@ -92,7 +101,7 @@ const AddBasicInfo = () => {
     }
   };
 
-  // Fields divided into pages (7 fields per page)
+  // Fields divided into pages
   const fieldPages = [
     ['first_name', 'last_name', 'father_name', 'location', 'gender', 'marital_status', 'date_of_birth'],
     ['mobile_phone', 'landline_phone', 'email', 'tax_id', 'address', 'department', 'responsibilities'],
@@ -112,21 +121,24 @@ const AddBasicInfo = () => {
           onChange={handleInputChange}
           className={`form-control ${requiredFields.includes(field) && !formData[field] ? 'input-error' : ''}`}
         />
+        {requiredFields.includes(field) && !formData[field] && (
+          <div className="error-message">This field is required</div>
+        )}
       </div>
     ));
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h3>Add Basic Info</h3>
+    <form onSubmit={handleSubmit} className="p-6 max-w-3xl mx-auto bg-white shadow-md rounded-lg">
+      <h3 className="text-2xl font-semibold text-gray-700 mb-6">Add Basic Info</h3>
 
       {renderFields(fieldPages[page - 1])}
 
       <div className="pagination-controls">
-        <button type="button" onClick={() => setPage(page > 1 ? page - 1 : page)}>
+        <button type="button" onClick={() => setPage(page > 1 ? page - 1 : page)} disabled={page === 1}>
           Previous
         </button>
-        <button type="button" onClick={() => setPage(page < fieldPages.length ? page + 1 : page)}>
+        <button type="button" onClick={() => setPage(page < fieldPages.length ? page + 1 : page)} disabled={page === fieldPages.length}>
           Next
         </button>
         <button type="submit" disabled={!isFormValid} className="submit-btn">

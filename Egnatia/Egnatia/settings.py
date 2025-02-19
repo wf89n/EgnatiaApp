@@ -64,8 +64,11 @@ CORS_ALLOW_ALL_ORIGINS = True  # For local development only
 ROOT_URLCONF = 'Egnatia.urls'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://egnatiaapp.onrender.com",  # Your Render domain
+    "http://localhost:3000",  # React app running locally
+    "https://egnatiaapp.onrender.com",  # Your deployed frontend on Render
+    "http://52.41.36.82",
+    "http://54.191.253.12",
+    "http://44.226.122.3",
 ]
 
 TEMPLATES = [
