@@ -111,7 +111,7 @@ CSRF_TRUSTED_ORIGINS = ["https://egnatiaapp.onrender.com",
                         "44.226.122.3",
                         ]
 
-
+CORS_ALLOW_CREDENTIALS = True
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
