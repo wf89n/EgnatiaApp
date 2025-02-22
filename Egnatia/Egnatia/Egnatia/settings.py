@@ -66,6 +66,9 @@ ROOT_URLCONF = 'Egnatia.urls'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://localhost:8000",
+    "https://egnatiaapp.onrender.com/"
+    "https://egnatiaapp.onrender.com/add-basic-info",
 ]
 
 TEMPLATES = [
@@ -90,16 +93,15 @@ WSGI_APPLICATION = 'Egnatia.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+import dj_database_url
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'egnatia',
-        'USER': 'egnatia',
-        'PASSWORD': 'hueckomundo1',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
+     'default': dj_database_url.config(
+         default=os.environ.get('postgresql://egnatia:yHlhIqJazyc8vL7DuHajRYpez7ggUOiH@dpg-cup11552ng1s73edvclg-a.oregon-postgres.render.com/egnatia')
+     )
+ }
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators

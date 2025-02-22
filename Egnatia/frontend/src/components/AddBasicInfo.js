@@ -91,7 +91,7 @@ const AddBasicInfo = () => {
     });
 
     try {
-      await axios.post('http://localhost:8000/create_basic_info/', formDataToSend, {
+      await axios.post('https://egnatiaapp.onrender.com/create_basic_info/', formDataToSend, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
       alert('Basic Info added successfully!');
