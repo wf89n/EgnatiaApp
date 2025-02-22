@@ -109,11 +109,12 @@ CSRF_TRUSTED_ORIGINS = ["https://egnatiaapp.onrender.com",
                         "52.41.36.82",
                         "54.191.253.12",
                         "44.226.122.3",
+                        "https://egnatiaapp.onrender.com/add-basic-info"
                         ]
 
 CORS_ALLOW_CREDENTIALS = True
 CSRF_COOKIE_NAME = 'csrftoken'  # Default CSRF cookie name
-CSRF_COOKIE_DOMAIN = 'https://egnatiaapp.onrender.com'  # Make sure this matches your frontend domain
+CSRF_COOKIE_DOMAIN = ['https://egnatiaapp.onrender.com','https://egnatiaapp.onrender.com/add-basic-info']  # Make sure this matches your frontend domain
 CSRF_COOKIE_SECURE = True  # Only if your site is served over HTTPS
 
 
