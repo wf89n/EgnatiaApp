@@ -71,6 +71,12 @@ const AddBasicInfo = () => {
     validateForm(formData);
   }, [formData, validateForm]);
 
+  // Get CSRF token from cookies
+  const getCsrfToken = () => {
+    const csrfToken = document.cookie.split(';').find(cookie => cookie.trim().startsWith('csrftoken='));
+    return csrfToken ? csrfToken.split('=')[1] : '';
+  };
+
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -92,7 +98,10 @@ const AddBasicInfo = () => {
 
     try {
       await axios.post('https://egnatiaapp.onrender.com/create_basic_info/', formDataToSend, {
-        headers: { 'Content-Type': 'multipart/form-data' },
+        headers: {
+          'Content-Type': 'multipart/form-data',
+          'X-CSRFToken': getCsrfToken(), // Add CSRF token to headers
+        },
       });
       alert('Basic Info added successfully!');
     } catch (error) {
