@@ -112,6 +112,11 @@ CSRF_TRUSTED_ORIGINS = ["https://egnatiaapp.onrender.com",
                         ]
 
 CORS_ALLOW_CREDENTIALS = True
+CSRF_COOKIE_NAME = 'csrftoken'  # Default CSRF cookie name
+CSRF_COOKIE_DOMAIN = 'https://egnatiaapp.onrender.com'  # Make sure this matches your frontend domain
+CSRF_COOKIE_SECURE = True  # Only if your site is served over HTTPS
+
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
