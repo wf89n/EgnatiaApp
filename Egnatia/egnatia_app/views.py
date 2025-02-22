@@ -77,6 +77,10 @@ from rest_framework.response import Response
 from rest_framework import status
 from .serializers import BasicInfoSerializer  # You'll need to create this serializer
 
+from django.views.decorators.csrf import csrf_protect
+from django.utils.decorators import method_decorator
+
+@method_decorator(csrf_protect, name='dispatch')
 @api_view(['POST'])
 def create_basic_info(request):
     """

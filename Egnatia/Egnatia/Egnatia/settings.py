@@ -98,7 +98,7 @@ DATABASES = {
         default=os.environ.get('postgresql://egnatia:yHlhIqJazyc8vL7DuHajRYpez7ggUOiH@dpg-cup11552ng1s73edvclg-a.oregon-postgres.render.com/egnatia?sslmode=require'),
         conn_max_age=600,  # Max connection age in seconds, adjust as needed
         OPTIONS={
-            'connect_timeout': 10,  # Set connection timeout (seconds)
+            'connect_timeout': 20,  # Set connection timeout (seconds)
         }
     )
 }
