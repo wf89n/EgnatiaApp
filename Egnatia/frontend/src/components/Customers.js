@@ -11,7 +11,7 @@ const Customers = () => {
 
   // Fetch customer data from the Django API
   useEffect(() => {
-    axios.get('http://localhost:8000/customers/')  // Replace with your backend URL
+    axios.get('https://egnatiaapp.onrender.com/customers/')  // Replace with your backend URL
       .then(response => {
         setCustomers(response.data);
       })

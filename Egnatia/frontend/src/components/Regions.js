@@ -12,7 +12,7 @@ const Regions = () => {
 
   // Fetch regions data from the Django API
   useEffect(() => {
-    axios.get('http://localhost:8000/regions/')  // Replace with your backend URL
+    axios.get('https://egnatiaapp.onrender.com/regions/')  // Replace with your backend URL
       .then(response => {
         setRegions(response.data);
       })

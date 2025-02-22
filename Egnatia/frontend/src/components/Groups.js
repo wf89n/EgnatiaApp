@@ -11,7 +11,7 @@ const Groups = () => {
 
   // Fetch groups data from the Django API
   useEffect(() => {
-    axios.get('http://localhost:8000/groups/')  // Replace with your backend URL
+    axios.get('https://egnatiaapp.onrender.com/groups/')  // Replace with your backend URL
       .then(response => {
         setGroups(response.data);
       })

@@ -25,6 +25,6 @@ urlpatterns = [
     path('people/<int:group_id>/', people_by_group, name='people-by-group'),
     path('attendance-reports/<int:group_id>/', attendance_reports_by_group, name='attendance-reports-by-group'),
     path('submit-attendance/', submit_attendance, name='submit-attendance'),
-    path('create_basic_info/', create_basic_info, name='create_basic_info'),
+    path('add-basic-info ', create_basic_info, name='create_basic_info'),
     path('', TemplateView.as_view(template_name='index.html')),
 ]
