@@ -102,6 +102,7 @@ DATABASES = {
         }
     )
 }
+CSRF_TRUSTED_ORIGINS = ["https://egnatiaapp.onrender.com"]
 
 
 # Password validation
