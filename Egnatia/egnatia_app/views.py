@@ -71,7 +71,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from .models import BasicInfo
 from .forms import BasicInfoForm  # You will need to create this form
-from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.csrf import csrf_protect, ensure_csrf_cookie
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
@@ -80,18 +80,15 @@ from .serializers import BasicInfoSerializer  # You'll need to create this seria
 from django.views.decorators.csrf import csrf_protect
 from django.utils.decorators import method_decorator
 
-@csrf_protect  # Apply CSRF protection
+@ensure_csrf_cookie  # Ensures CSRF token is set
+@csrf_protect  # Enforces CSRF protection
 @api_view(['POST'])
 def create_basic_info(request):
-    """
-    This API endpoint will allow the creation of a BasicInfo object
-    """
-    if request.method == 'POST':
-        serializer = BasicInfoSerializer(data=request.data)
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    serializer = BasicInfoSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 
