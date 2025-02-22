@@ -80,7 +80,7 @@ from .serializers import BasicInfoSerializer  # You'll need to create this seria
 from django.views.decorators.csrf import csrf_protect
 from django.utils.decorators import method_decorator
 
-@method_decorator(csrf_protect, name='dispatch')
+@csrf_protect  # Apply CSRF protection
 @api_view(['POST'])
 def create_basic_info(request):
     """
