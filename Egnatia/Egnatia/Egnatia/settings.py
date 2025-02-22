@@ -93,14 +93,15 @@ WSGI_APPLICATION = 'Egnatia.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-import dj_database_url
-
 DATABASES = {
-     'default': dj_database_url.config(
-         default=os.environ.get('postgresql://egnatia:yHlhIqJazyc8vL7DuHajRYpez7ggUOiH@dpg-cup11552ng1s73edvclg-a.oregon-postgres.render.com/egnatia')
-     )
- }
-
+    'default': dj_database_url.config(
+        default=os.environ.get('postgresql://egnatia:yHlhIqJazyc8vL7DuHajRYpez7ggUOiH@dpg-cup11552ng1s73edvclg-a.oregon-postgres.render.com/egnatia?sslmode=require'),
+        conn_max_age=600,  # Max connection age in seconds, adjust as needed
+        OPTIONS={
+            'connect_timeout': 10,  # Set connection timeout (seconds)
+        }
+    )
+}
 
 
 # Password validation
