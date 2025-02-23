@@ -78,10 +78,10 @@ const EmployeeTable = () => {
           <table className="w-full mt-4 text-left table-auto min-w-max">
             <thead>
               <tr>
-                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-                  <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Member</p>
+                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50 text-center">
+                  <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Employee</p>
                 </th>
-                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
+                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50 text-center">
                   <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Role</p>
                 </th>
               </tr>
@@ -89,7 +89,7 @@ const EmployeeTable = () => {
             <tbody>
               {currentEmployees.map((employee) => (
                 <tr key={employee.id} className="text-center">
-                  <td className="p-4 border-y border-blue-gray-100 flex items-center">
+                  <td className="p-4 border-y border-blue-gray-100 flex items-center justify-center">
                     {employee.photo ? (
                       <img src={employee.photo} alt={`${employee.basic_info.first_name} ${employee.basic_info.last_name}`} className="w-10 h-10 rounded-full mr-4" />
                     ) : (
@@ -99,7 +99,7 @@ const EmployeeTable = () => {
                       {employee.basic_info.first_name} {employee.basic_info.last_name}
                     </p>
                   </td>
-                  <td className="p-4 border-y border-blue-gray-100">
+                  <td className="p-4 border-y border-blue-gray-100 text-center">
                     <p className="font-sans text-base antialiased font-normal text-blue-gray-900">{employee.role_name}</p>
                   </td>
                 </tr>
