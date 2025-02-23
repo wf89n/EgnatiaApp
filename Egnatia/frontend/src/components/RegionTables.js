@@ -3,7 +3,6 @@ import axios from 'axios';
 
 const RegionTables = () => {
     const [regions, setRegions] = useState([]);
-    const [searchQuery, setSearchQuery] = useState(''); // State for search query
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
