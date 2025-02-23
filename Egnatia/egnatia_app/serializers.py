@@ -8,8 +8,19 @@ class GroupSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Group
-        fields = ['id', 'name', 'total_meters_assigned', 'total_freatio_assigned', 'total_cabins_assigned', 'total_catheta_assigned',
-                  'total_meters_done', 'total_freatio_done', 'total_cabins_done', 'total_catheta_done', 'total_expenses']
+        fields = [
+            'id',
+            'name',
+            'total_meters_assigned',
+            'total_meters_done',
+            'total_freatio_assigned',
+            'total_freatio_done',
+            'total_cabins_assigned',
+            'total_cabins_done',
+            'total_catheta_assigned',
+            'total_catheta_done',
+            'total_expenses'
+        ]
 
 class RegionSerializer(serializers.ModelSerializer):
     """Serializer for the Region model, including nested Groups."""

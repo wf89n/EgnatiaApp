@@ -113,6 +113,12 @@ def group_list(request):
             'total_expenses': float(group.total_expenses),  # Ensure this is returned as a float
             'total_meters_assigned': group.total_meters_assigned,
             'total_meters_done': group.total_meters_done,
+            'total_freatio_assigned': group.total_freatio_assigned,  # Add freatio assigned
+            'total_freatio_done': group.total_freatio_done,  # Add freatio done
+            'total_cabins_assigned': group.total_cabins_assigned,  # Add cabins assigned
+            'total_cabins_done': group.total_cabins_done,  # Add cabins done
+            'total_katheta_assigned': group.total_katheta_assigned,  # Add katheta assigned
+            'total_katheta_done': group.total_katheta_done,  # Add katheta done
             'departments_costs': department_costs,  # Add department costs here
         }
         data.append(group_data)
