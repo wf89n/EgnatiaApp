@@ -80,19 +80,31 @@ class BasicInfoSerializer(serializers.ModelSerializer):
                   'mobile_phone', 'landline_phone', 'email', 'tax_id', 'address', 'department', 'responsibilities',
                   'specialization', 'degree_available', 'salary', 'iban', 'hiring_date', 'employee_status',
                   'termination_date', 'medical_exams', 'medical_exams_date', 'medical_exams_renewal_date',
-                  'safety_passport', 'safety_passport_date', 'safety_passport_renewal_date', 'certifications_seminars']
+                  'safety_passport', 'safety_passport_date', 'safety_passport_renewal_date', 'certifications_seminars','total_pay']
+
+
+    def get_total_pay(self, obj):
+        # Get the total pay from BasicInfo model
+        return obj.total_pay()
 
 
 class EmployeeSerializer(serializers.ModelSerializer):
-    """Serializer for the Employee model."""
     basic_info = BasicInfoSerializer()
     role_name = serializers.CharField(source='role.name', read_only=True)
     department_name = serializers.CharField(source='department.name', read_only=True)
     photo = serializers.ImageField()
+    total_pay = serializers.ReadOnlyField(source='basic_info.total_pay')  # Get the total pay
 
     class Meta:
         model = Employee
-        fields = ['id', 'basic_info', 'role_name', 'department_name', 'photo']
+        fields = ['id', 'basic_info', 'role_name', 'department_name', 'photo', 'total_pay']  # No salary field
+
+
+    def get_total_pay(self, obj):
+        # Access the total_pay method from the BasicInfo instance
+        return obj.basic_info.total_pay() if obj.basic_info else 0
+
+
 
     def to_representation(self, instance):
         representation = super().to_representation(instance)

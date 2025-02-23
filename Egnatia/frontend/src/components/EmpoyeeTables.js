@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 const EmployeeTable = () => {
   const [employees, setEmployees] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [employeesPerPage] = useState(5); // You can change this to any number of employees per page
 
   // Fetch employees when the component mounts
   useEffect(() => {
@@ -17,6 +20,22 @@ const EmployeeTable = () => {
 
     fetchEmployees();
   }, []);
+
+  // Filter employees based on the search term
+  const filteredEmployees = employees.filter(
+    (employee) =>
+      `${employee.basic_info.first_name} ${employee.basic_info.last_name}`
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase())
+  );
+
+  // Paginate the filtered employees
+  const indexOfLastEmployee = currentPage * employeesPerPage;
+  const indexOfFirstEmployee = indexOfLastEmployee - employeesPerPage;
+  const currentEmployees = filteredEmployees.slice(indexOfFirstEmployee, indexOfLastEmployee);
+
+  // Handle page change
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
     <div className="relative flex flex-col w-full h-full text-gray-700 bg-white shadow-md rounded-xl bg-clip-border">
@@ -42,6 +61,19 @@ const EmployeeTable = () => {
             </button>
           </div>
         </div>
+
+        {/* Search Bar */}
+        <div className="mb-4 mx-6">
+          <input
+            type="text"
+            placeholder="Search by name..."
+            className="w-full p-2 border border-gray-300 rounded-md"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
+
+        {/* Employees Table */}
         <div className="p-6 px-0 overflow-scroll">
           <table className="w-full mt-4 text-left table-auto min-w-max">
             <thead>
@@ -50,39 +82,49 @@ const EmployeeTable = () => {
                   <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Member</p>
                 </th>
                 <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-                  <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Function</p>
-                </th>
-                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
                   <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Role</p>
-                </th>
-                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50">
-                  <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Photo</p>
                 </th>
               </tr>
             </thead>
             <tbody>
-              {employees.map((employee) => (
+              {currentEmployees.map((employee) => (
                 <tr key={employee.id} className="text-center">
-                  <td className="p-4 border-y border-blue-gray-100">
-                    <p className="font-sans text-base antialiased font-normal text-blue-gray-900">{employee.basic_info.first_name} {employee.basic_info.last_name}</p>
+                  <td className="p-4 border-y border-blue-gray-100 flex items-center">
+                    {employee.photo ? (
+                      <img src={employee.photo} alt={`${employee.basic_info.first_name} ${employee.basic_info.last_name}`} className="w-10 h-10 rounded-full mr-4" />
+                    ) : (
+                      <div className="w-10 h-10 rounded-full bg-gray-300 mr-4"></div> // Placeholder for no photo
+                    )}
+                    <p className="font-sans text-base antialiased font-normal text-blue-gray-900">
+                      {employee.basic_info.first_name} {employee.basic_info.last_name}
+                    </p>
                   </td>
                   <td className="p-4 border-y border-blue-gray-100">
                     <p className="font-sans text-base antialiased font-normal text-blue-gray-900">{employee.role_name}</p>
-                  </td>
-                  <td className="p-4 border-y border-blue-gray-100">
-                    <p className="font-sans text-base antialiased font-normal text-blue-gray-900">{employee.department_name}</p>
-                  </td>
-                  <td className="p-4 border-y border-blue-gray-100">
-                    {employee.photo ? (
-                      <img src={employee.photo} alt={`${employee.basic_info.first_name} ${employee.basic_info.last_name}`} className="w-10 h-10 rounded-full" />
-                    ) : (
-                      'No Photo'
-                    )}
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
+        </div>
+
+        {/* Pagination */}
+        <div className="flex justify-center items-center mt-4">
+          <button
+            onClick={() => paginate(currentPage - 1)}
+            className="px-4 py-2 mx-2 bg-gray-300 text-gray-700 rounded-lg disabled:opacity-50"
+            disabled={currentPage === 1}
+          >
+            Previous
+          </button>
+          <span className="px-4 py-2 text-gray-700">{currentPage}</span>
+          <button
+            onClick={() => paginate(currentPage + 1)}
+            className="px-4 py-2 mx-2 bg-gray-300 text-gray-700 rounded-lg disabled:opacity-50"
+            disabled={currentPage === Math.ceil(filteredEmployees.length / employeesPerPage)}
+          >
+            Next
+          </button>
         </div>
       </div>
     </div>
