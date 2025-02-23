@@ -78,7 +78,7 @@ const EmployeeTable = () => {
           <table className="w-full mt-4 text-left table-auto min-w-max">
             <thead>
               <tr>
-                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50 text-center">
+                <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50 text-left">
                   <p className="block font-sans text-sm antialiased font-normal leading-none text-blue-gray-900 opacity-70">Employee</p>
                 </th>
                 <th className="p-4 border-y border-blue-gray-100 bg-blue-gray-50/50 text-center">
@@ -89,7 +89,7 @@ const EmployeeTable = () => {
             <tbody>
               {currentEmployees.map((employee) => (
                 <tr key={employee.id} className="text-center">
-                  <td className="p-4 border-y border-blue-gray-100 flex items-center justify-center">
+                  <td className="p-4 border-y border-blue-gray-100 flex items-center">
                     {employee.photo ? (
                       <img src={employee.photo} alt={`${employee.basic_info.first_name} ${employee.basic_info.last_name}`} className="w-10 h-10 rounded-full mr-4" />
                     ) : (
