@@ -6,7 +6,10 @@ import Regions from './components/Regions';
 import Customers from './components/Customers';
 import Attendance from './components/Attendance';
 import AddBasicInfo from './components/AddBasicInfo'; // Import the AddBasicInfo component
-
+import RegionTables from './components/RegionTables';
+import GroupTables from './components/GroupTables';
+import CustomerTables from './components/CustomerTables';
+import EmployeeTable from "./components/EmpoyeeTables";
 const App = () => {
   return (
     <Router>
@@ -20,6 +23,11 @@ const App = () => {
             <Route path="/customers" element={<Customers />} />
             <Route path="/attendance" element={<Attendance />} />
             <Route path="/add-basic-info" element={<AddBasicInfo />} /> {/* Route for the new form */}
+            <Route path="/region-tables" element={<RegionTables />} />
+            <Route path="/customer-tables" element={<CustomerTables />} />
+            <Route path="/employee-tables" element={<EmployeeTable />} />
+            <Route path="/group-tables" element={<GroupTables />} />
+
           </Routes>
         </div>
       </div>

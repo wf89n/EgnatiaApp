@@ -244,6 +244,12 @@ class Employee(models.Model):
     role = models.ForeignKey(
         'Role', on_delete=models.CASCADE, related_name='employees', verbose_name="Role"
     )
+    photo = models.ImageField(
+        upload_to='employee_photos/',  # You can define a folder where images will be stored
+        null=True,
+        blank=True,
+        verbose_name="Employee Photo"
+    )
 
     def __str__(self):
         return f"{self.basic_info.first_name} {self.basic_info.last_name} - {self.role.name}"

@@ -11,7 +11,7 @@ const Attendance = () => {
 
   // Fetch regions on mount
   useEffect(() => {
-    axios.get("http://localhost:8000/regions/")
+    axios.get("'https://egnatiaapp.onrender.com/regions/")
       .then((response) => setRegions(response.data))
       .catch((error) => console.error("Error fetching regions:", error));
   }, []);

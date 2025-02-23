@@ -51,13 +51,14 @@ class DepartmentSerializer(serializers.ModelSerializer):
 
 
 class GroupDepartmentSerializer(serializers.ModelSerializer):
-    """Serializer for the GroupDepartment model."""
-    group_name = serializers.CharField(source='group.name', read_only=True)
-    department_name = serializers.CharField(source='department.name', read_only=True)
+    total_cost = serializers.SerializerMethodField()
 
     class Meta:
         model = GroupDepartment
-        fields = ['id', 'group', 'department', 'group_name', 'department_name']
+        fields = ['id', 'group', 'department', 'total_cost']
+
+    def get_total_cost(self, obj):
+        return obj.total_department_cost()
 
 
 class RoleSerializer(serializers.ModelSerializer):
@@ -87,11 +88,20 @@ class EmployeeSerializer(serializers.ModelSerializer):
     basic_info = BasicInfoSerializer()
     role_name = serializers.CharField(source='role.name', read_only=True)
     department_name = serializers.CharField(source='department.name', read_only=True)
-    group_name = serializers.CharField(source='group.name', read_only=True)
+    photo = serializers.ImageField()
 
     class Meta:
         model = Employee
-        fields = ['id', 'basic_info', 'role', 'role_name', 'department', 'department_name', 'group', 'group_name']
+        fields = ['id', 'basic_info', 'role_name', 'department_name', 'photo']
+
+    def to_representation(self, instance):
+        representation = super().to_representation(instance)
+        # Ensure the photo field contains a full URL to the image
+        if instance.photo:
+            representation['photo'] = instance.photo.url
+        else:
+            representation['photo'] = None
+        return representation
 
 
 from .models import Customer

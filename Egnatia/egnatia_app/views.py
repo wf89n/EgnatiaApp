@@ -157,12 +157,14 @@ def role_list(request):
     serializer = RoleSerializer(roles, many=True)
     return Response(serializer.data)
 
+
 @api_view(['GET'])
 def employee_list(request):
     """Fetch all employees."""
     employees = Employee.objects.all()
     serializer = EmployeeSerializer(employees, many=True)
     return Response(serializer.data)
+
 
 @api_view(['GET'])
 def employee_detail(request, pk):

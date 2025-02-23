@@ -271,14 +271,27 @@ from django.utils.safestring import mark_safe
 
 
 class EmployeeAdmin(admin.ModelAdmin):
-    list_display = ('basic_info', 'region', 'group', 'department', 'role')
+    # Display these fields in the list view
+    list_display = ('basic_info', 'region', 'group', 'department', 'role', 'photo')
+
+    # Add filters for the employee fields
     list_filter = ('region', 'group', 'department', 'role')
+
+    # Customize the form view for adding/editing employees
+    fieldsets = (
+        (None, {
+            'fields': ('basic_info', 'region', 'group', 'department', 'role', 'photo')
+        }),
+    )
+
+    # Optionally, you can define which fields should appear in the employee add/edit form
+    # fields = ('basic_info', 'region', 'group', 'department', 'role', 'photo')
 
     class Media:
         js = ('js/admin_filter.js',)  # Link to your custom JavaScript file
 
+# Register the Employee model in the admin site
 admin.site.register(Employee, EmployeeAdmin)
-
 
 from .models import CloseBC
 
